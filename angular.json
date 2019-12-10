@@ -24,9 +24,13 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/fomantic-ui/dist/semantic.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/fomantic-ui/dist/semantic.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -89,9 +93,13 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/fomantic-ui/dist/semantic.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/fomantic-ui/dist/semantic.min.js"
+            ]
           }
         },
         "lint": {
